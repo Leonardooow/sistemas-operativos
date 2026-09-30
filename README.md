@@ -1,36 +1,26 @@
 ﻿# sistemas-operativos
 🖥️ Portafolio de Sistemas Operativos
-🐧 Comandos Git en Linux
+🐧 Linux
 Comando	¿Qué hace?	Acción
-echo "# portafolio-so-rumipamba" >> README.md	Crea el archivo README y agrega el título.	📄 Crear archivo
-git init	Inicializa un repositorio Git en la carpeta actual.	📁 Crear repositorio
-git add README.md	Prepara el archivo para realizar un commit.	➕ Agregar archivo
-git commit -m "first commit"	Guarda los cambios en el historial de Git.	💾 Crear commit
-git branch -M main	Cambia el nombre de la rama actual a main.	🌿 Configurar rama
-git remote add origin URL	Conecta el repositorio local con GitHub.	🔗 Conectar repositorio
-git push -u origin main	Sube los cambios de la rama main a GitHub.	☁️ Subir proyecto
-🪟 Comandos Git en Windows
+echo "# portafolio-so-rumipamba" >> README.md	Crea el README y agrega el título	Crear archivo
+git init	Inicializa un repositorio Git	Crear repositorio
+git add README.md	Prepara el archivo para guardarlo	Agregar archivo
+git commit -m "first commit"	Guarda los cambios en Git	Crear commit
+git branch -M main	Cambia la rama a main	Configurar rama
+git remote add origin URL	Conecta el proyecto con GitHub	Conectar repositorio
+git push -u origin main	Sube el proyecto a GitHub	Subir proyecto
+🪟 Windows
 Comando	¿Qué hace?	Acción
-echo "# portafolio-so-rumipamba" >> README.md	Crea el archivo README y agrega el título.	📄 Crear archivo
-git init	Inicializa un repositorio Git en la carpeta actual.	📁 Crear repositorio
-git add README.md	Prepara el archivo para realizar un commit.	➕ Agregar archivo
-git commit -m "first commit"	Guarda los cambios en el historial de Git.	💾 Crear commit
-git branch -M main	Cambia el nombre de la rama actual a main.	🌿 Configurar rama
-git remote add origin URL	Conecta el repositorio local con GitHub.	🔗 Conectar repositorio
-git push -u origin main	Sube los cambios de la rama main a GitHub.	☁️ Subir proyecto
+echo "# portafolio-so-rumipamba" >> README.md	Crea el README y agrega el título	Crear archivo
+git init	Inicializa un repositorio Git	Crear repositorio
+git add README.md	Prepara el archivo para guardarlo	Agregar archivo
+git commit -m "first commit"	Guarda los cambios en Git	Crear commit
+git branch -M main	Cambia la rama a main	Configurar rama
+git remote add origin URL	Conecta el proyecto con GitHub	Conectar repositorio
+git push -u origin main	Sube el proyecto a GitHub	Subir proyecto
 🔄 Flujo de trabajo
-📁 Crear repositorio
-        ↓
-➕ Agregar archivos
-        ↓
-💾 Crear commit
-        ↓
-🔗 Conectar con GitHub
-        ↓
-☁️ Subir proyecto
+Crear → Agregar → Guardar → Conectar → Subir
 
-📌 Descripción
+📌 Resumen
 
-Este portafolio contiene información y prácticas relacionadas con Sistemas Operativos, incluyendo el uso de Git y GitHub para el control de versiones y administración de proyectos.
-
-💡 Nota: Los comandos de Git funcionan prácticamente igual en Linux y Windows. Las principales diferencias aparecen en los comandos propios de cada sistema operativo.
+Git permite controlar las versiones de un proyecto y GitHub permite almacenar y compartir el repositorio de manera remota.
